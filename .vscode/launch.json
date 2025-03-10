@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "Main.Game",
+            "projectName": "Okami-Jump-main"
+        },
+        {
+            "type": "java",
+            "name": "Run Game",
+            "request": "launch",
+            "mainClass": "Game",
+            "projectName": "Okami-Jump-main",
+            "classPaths": [
+                "bin",        // your compiled .class files
+                "Libs/*" ,     // your external libraries (all jars in the Libs folder)
+                "${workspaceFolder}/Resources"
+            ]
+        }
+    ]
+  }
