@@ -69,3 +69,21 @@ The game is divided into several states:
 - **Game Loop**: Once the game starts, the player can move and interact with the environment. The game checks for conditions like collisions and player health.
 - **Game Over**: If the player falls off the map or runs out of health, the game transitions to the game-over state, where a high score can be recorded if enough points are collected.
 - **Music & Sounds**: Background music is played during gameplay, and sound effects trigger based on player actions like jumping and attacking enemies.
+
+
+![Home Screen](ReadMeImages/okamiHomeScreen.png)
+
+
+
+
+![Jump](ReadMeImages/jump.png)
+
+
+
+
+![Fireball](ReadMeImages/fireball.png)
+
+
+
+
+![HighScores](ReadMeImages/ScoreMenu.png)
